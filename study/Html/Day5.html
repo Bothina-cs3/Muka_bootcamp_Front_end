@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5</title>
+</head>
+<body>
+
+    <!-- Header with Navigation Links -->
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Bothaina, and I recently joined Bootcamp and chose the Front End track and we started with HTML, and here is a video about it.</p>
+        
+        <!-- Embedded YouTube Video -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kUMe1FH4CHE" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <!-- Projects Section with Audio and Video -->
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <!-- Audio Clip -->
+        <h3>My Favorite Song</h3>
+        <audio controls>
+            <source src="https://www.albumaty.com/a/uploads/songs/7mwd_alk5r_-_handa.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+
+        <!-- Video Element -->
+        <h3>Favorite YouTube Video</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3LPUDI7q6MU" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+</iframe>
+    </section>
+
+    <!-- Contact Section with Form -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <fieldset>
+                <legend>Get in Touch</legend>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            </fieldset>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+</body>
+</html>
