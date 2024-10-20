@@ -1,0 +1,39 @@
+body {
+background: linear-gradient(45deg, lightgreen, coral 50%, lightgreen);
+text-align: center;
+font-family: "Comic Sans MS",sans-serif;
+}
+
+.profile-card {
+    color: white;
+    width: 80%;
+    max-width: 600px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 0 0 10px black;
+}
+
+/* ID Selector */
+#name {
+    color: black;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+/* Class Selector */
+.profile-img {
+    box-shadow: 0 0 10px black;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Grouping Selectors */
+p, h1 {
+    margin: 10px 0;
+}
+
+/* Combinators */
+.profile-card p.description {
+    font-size: 16px;
+    color: black;
+}
