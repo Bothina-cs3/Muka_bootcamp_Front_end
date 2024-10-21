@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+    background: linear-gradient(45deg,lightgreen,coral,lightgreen);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h2{
+    color:green
+}
+
+/* Header with Background Image */
+header {
+    background: url("image.jpeg") no-repeat center center/cover;
+    color:lightgreen;
+    text-align: center;
+    padding: 80px 0;
+    box-shadow: 0 0 10px black;
+}
+
+header h1 {
+    font-size: 3em;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: lightgreen;
+}
+
+/* Section Styling */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+#about {
+    background: linear-gradient(45deg, coral, lightgreen);
+}
+
+#menu ul {
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#menu ul li {
+    font-size: 1.5em;
+    padding: 5px 0;
+    color: black
+}
+
+/* Footer Styling */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
